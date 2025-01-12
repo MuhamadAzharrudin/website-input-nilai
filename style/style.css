@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+ul#menu {
+    margin-top: 30px;
+    /* Opsional, jika ingin menambah jarak dari bagian atas */
+}
+
+ul li a {
+    margin-bottom: 20px;
+}
+
+
+
+/* STYLE DASHBOARD */
+/* Table Section */
+.jdl {
+    font-size: 2.5rem;
+    color: #198754;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    border-bottom: 5px solid #198754;
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.table th {
+    background-color: #198754;
+    color: #198754;
+    font-size: 20px;
+}
+
+.table td {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Gaya untuk link aksi */
+table .edit {
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    background: green;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+table .hps {
+    text-decoration: none;
+    color: #FFF;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    background: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* AKHIR STYLE DASHBOARD */
+
+
+
+
+/* STYLE CREATE */
+.mx-auto {
+    width: 800px;
+}
+
+/* Sidebar */
+.bg-success {
+    background-color: #198754 !important;
+}
+
+.nav-link {
+    color: #e9ecef !important;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    background-color: #145c32;
+    color: #fff !important;
+    border-radius: 4px;
+}
+
+.nav-item .bi {
+    margin-right: 8px;
+}
+
+.dropdown-menu-dark {
+    background-color: #145c32;
+}
+
+.dropdown-item {
+    color: #e9ecef;
+}
+
+.dropdown-item:hover {
+    background-color: #198754;
+}
+
+/* Logo */
+.img {
+    max-height: 60px;
+    margin-right: 8px;
+}
+
+.fs-5 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Form Section */
+.col.py-3 {
+    background-color: #F2F9FF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    margin: 24px;
+}
+
+h1 {
+    font-size: 1.75rem;
+    color: #198754;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: 600;
+    color: #198754;
+}
+
+select,
+input[type="text"] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 8px 12px;
+    width: 100%;
+    margin-bottom: 16px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+select:focus,
+input[type="text"]:focus {
+    border-color: #198754;
+    box-shadow: 0 0 6px rgba(25, 135, 84, 0.4);
+    outline: none;
+}
+
+button {
+    background-color: #198754;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #145c32;
+    transform: scale(1.05);
+}
+
+/* AKHIR STYLE CREATE */
